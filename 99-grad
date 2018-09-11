@@ -1,5 +1,5 @@
 #!/bin/sh
-days=$(expr \( `date -d "20190126" +%s` - `date +%s` \) / 86400)
+days=$(expr \( `date -d "20190125" +%s` - `date +%s` \) / 86400)
 
 echo -n "\033[1;31m"
 echo We have only $days days to X-Day...
