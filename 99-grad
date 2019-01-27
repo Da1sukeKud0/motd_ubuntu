@@ -1,5 +1,5 @@
 #!/bin/sh
-days=$(expr \( `date -d "20190125" +%s` - `date +%s` \) / 86400)
+days=$(expr \( `date -d "20190204" +%s` - `date +%s` \) / 86400)
 weeks=$(expr $days / 7)
 
 echo -n "\033[0;31m"
